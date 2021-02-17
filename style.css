@@ -54,7 +54,16 @@ img {
 .main {
   display: none;
 }
+/*    */
 
+.img-details {
+  display: flex;
+  padding: 0 1em;
+  margin-top: 15px;
+}
+.fas {
+  margin-left: 15px;
+}
 @media (max-width: 767px) {
   .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {
     flex-direction: column;

@@ -12,6 +12,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,13 +23,13 @@
       <div class="input-group col-md-6 mb-2">
         <input type="text" class="form-control" id="search" placeholder="nature">
       </div>
-      <button type="button" id="search-btn" class="btn btn-primary mb-2">Search</button>
+      <button type="button" id="search-btn" onclick="getResult()" class="btn btn-primary mb-2">Search</button>
     </div>
     <section class="images">
       <div class="justify-content-around align-items-center mt-3 gallery-header mb-2">
         <h3 class="head-title text-center">Select image for create slider</h3>
         <div class="input-group col-md-3 mb-2 mb-md-0">
-          <input class="form-control" id="doration" placeholder="slider change duration">
+          <input class="form-control" id="duration" placeholder="slider change duration">
         </div>
         <button id="create-slider" class="btn btn-primary px-5">Create slider</button>
       </div>
@@ -47,6 +48,7 @@
       </div>
     </div>
   </div>
+  <!-- <i class="fas fa-thumbs-up"></i> -->
   <!-- Optional JavaScript -->
   <script src="./app.js"></script>
 </body>
